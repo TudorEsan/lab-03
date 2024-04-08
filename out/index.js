@@ -32,3 +32,5 @@ function evaluateStudentOverallScore(testScores, attendanceRate, participatedInG
         return "Pass";
     }
 }
+var result = evaluateStudentOverallScore([90, 85, 92], 95, true);
+console.log(result);
